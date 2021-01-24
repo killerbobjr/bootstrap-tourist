@@ -19,7 +19,7 @@
   position: absolute;
   box-sizing: content-box;
   z-index: 1110;
-  background-color: #888;
+  background-color: #444;
   opacity: 0.3;
   -ms-filter: "alpha(opacity=30)";
   filter: alpha(opacity=30);
