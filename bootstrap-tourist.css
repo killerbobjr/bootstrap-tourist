@@ -19,10 +19,10 @@
   position: absolute;
   box-sizing: content-box;
   z-index: 1110;
-  background-color: #000;
-  opacity: 0.8;
-  -ms-filter: "alpha(opacity=90)";
-  filter: alpha(opacity=90);
+  background-color: #888;
+  opacity: 0.3;
+  -ms-filter: "alpha(opacity=30)";
+  filter: alpha(opacity=30);
 }
 
 .tour-backdrop-animation {

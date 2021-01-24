@@ -108,7 +108,7 @@
 										backdrop: false,
 										backdropContainer: 'body',
 										backdropOptions:	{
-																highlightOpacity:			0.9,
+																highlightOpacity:			0.3,
 																highlightColor:				"#FFF",
                                                                 backdropSibling:            false,
 																animation:	{
