@@ -49,11 +49,11 @@
 	}
 })(window, function ($) {
 
-	const DOMID_BACKDROP = "#tourBackdrop";
-	const DOMID_BACKDROP_TEMP = "#tourBackdrop-temp"; // used for @ibastevan zindex fix: https://github.com/IGreatlyDislikeJavascript/bootstrap-tourist/issues/38
-	const DOMID_HIGHLIGHT = "#tourHighlight";
-	const DOMID_HIGHLIGHT_TEMP = "#tourHighlight-temp"; // used for @ibastevan zindex fix: https://github.com/IGreatlyDislikeJavascript/bootstrap-tourist/issues/38
-	const DOMID_PREVENT = "#tourPrevent";
+	var DOMID_BACKDROP = "#tourBackdrop";
+	var DOMID_BACKDROP_TEMP = "#tourBackdrop-temp"; // used for @ibastevan zindex fix: https://github.com/IGreatlyDislikeJavascript/bootstrap-tourist/issues/38
+	var DOMID_HIGHLIGHT = "#tourHighlight";
+	var DOMID_HIGHLIGHT_TEMP = "#tourHighlight-temp"; // used for @ibastevan zindex fix: https://github.com/IGreatlyDislikeJavascript/bootstrap-tourist/issues/38
+	var DOMID_PREVENT = "#tourPrevent";
 
 	var Tour, document, objTemplates, objTemplatesButtonTexts;
 
@@ -1696,6 +1696,8 @@
 								}
 								break;
 
+							case 13:
+								// enter
 							case 27:
 								// escape
 								e.preventDefault();
